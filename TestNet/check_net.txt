@@ -1,0 +1,1 @@
+curl --url http://localhost:1338/v2/network/information | jq
