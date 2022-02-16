@@ -1,5 +1,10 @@
 #!/bin/bash
 
+
+# mnemonic5 is KennyPowers w/ 3 mil - the main sender via walletID
+# mnemonic4 is x4Wallet04 w/ 13.7 ada or 13.7mil lovelace every trans via addr
+# metadata can contain objects
+
 curl --request POST \
   --url http://localhost:1338/v2/wallets/b3dacef55214a547bf7623beb53783792fd4f329/transactions \
   --header 'Content-Type: application/json' \
