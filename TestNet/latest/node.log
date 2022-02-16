@@ -317,3 +317,8 @@ NodeToClientV_11	HardForkNodeToClientEnabled HardForkSpecificNodeToClientVersion
 [35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:18:12.38 UTC] Chain extended, new tip: be2dc389f31f5bd6cfb24d32c304c5a43416bd04db8fb9f5d4c5cbf663763571 at slot 50608676
 [35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:18:18.46 UTC] Chain extended, new tip: acd4b97d7e31fcc8006ffa0a7ad275c2fb4cb03f2fed4306e7034c9397091c8f at slot 50608682
 [35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:19:54.61 UTC] Chain extended, new tip: e4fb07b6f87044ecc06d809922439d53af884ffa17974fd246533bc706373176 at slot 50608778
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:21:13.50 UTC] Chain extended, new tip: 2b53ea5e6610811a4ff1e1ef6e9b9d801ff5648c5979957ccdad6808b00ad22b at slot 50608857
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:21:25.49 UTC] Chain extended, new tip: aab75b8064685588e6d6893cfae850103c3f91ff1d835a7087ed241d685bf0cb at slot 50608869
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:21:30.36 UTC] Chain extended, new tip: 42a7458f1496d584a4a252da813dac43e19d7daaebbac7d9b7758bef60f71087 at slot 50608874
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:22:01.34 UTC] Chain extended, new tip: 70aacb1839386e18a02aebab7c28e0a7d173d78464ba85bc422a277297b0414a at slot 50608905
+[34m[rch1:cardano.node.Mempool:Info:143][0m [2022-02-16 02:22:29.92 UTC] fromList [("tx",Object (fromList [("txid",String "f69aeaed")])),("kind",String "TraceMempoolAddedTx"),("mempoolSize",Object (fromList [("bytes",Number 369.0),("numTxs",Number 1.0)]))]
