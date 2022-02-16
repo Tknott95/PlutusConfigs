@@ -338,3 +338,30 @@ NodeToClientV_11	HardForkNodeToClientEnabled HardForkSpecificNodeToClientVersion
 [34m[rch1:cardano.node.Mempool:Info:143][0m [2022-02-16 02:26:48.69 UTC] fromList [("tx",Object (fromList [("txid",String "3c8f932f")])),("kind",String "TraceMempoolAddedTx"),("mempoolSize",Object (fromList [("bytes",Number 297.0),("numTxs",Number 1.0)]))]
 [35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:27:17.64 UTC] Chain extended, new tip: c6ab63eba8a5abd55aadfc2e430d0f24254f3b8fdc1bac13af24a3491468f733 at slot 50609221
 [34m[rch1:cardano.node.Mempool:Info:62][0m [2022-02-16 02:27:17.64 UTC] fromList [("kind",String "TraceMempoolRemoveTxs"),("txs",Array [Object (fromList [("txid",String "3c8f932f")])]),("mempoolSize",Object (fromList [("bytes",Number 0.0),("numTxs",Number 0.0)]))]
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:28:55.62 UTC] Chain extended, new tip: ec15012118e94a0bf70ca466c2e47d9bc828e24d7c4a2c83a7476a2f4e1c94d6 at slot 50609319
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:29:31.57 UTC] Chain extended, new tip: 5c240d745fd75479a1d440b2307f0880698332048dd2fe660a991276c0f531c4 at slot 50609355
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:30:00.23 UTC] Chain extended, new tip: 9ca39a2abdc018da15dcb434c5900f658762975576552338223130360b0ad1cc at slot 50609384
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:30:23.15 UTC] Chain extended, new tip: cf954849d3511735e36943e487b8dba401d1831412027fff57c1174b58be2e35 at slot 50609407
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:31:38.00 UTC] Chain extended, new tip: 70b1f0657e54bc3adc3c2be547ce750555f76aad5e270ca28832ea9c5d71d420 at slot 50609481
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:32:31.29 UTC] Chain extended, new tip: 7350c8e6933cbb33c4ae0e6bdd46d815169f5b128719c7a3f4542d342c334ba0 at slot 50609535
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:33:10.50 UTC] Chain extended, new tip: 4124d985735bfe4503cb0846586565ab0bd9d751350ca67ca2bec24ed7c0dc2a at slot 50609574
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:33:58.32 UTC] Chain extended, new tip: 52f517f09e6b9233241cff001ea20f7af8ac9479bb5245e0a111d22fa89af262 at slot 50609622
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:34:00.37 UTC] Chain extended, new tip: e3c06cd41509cfe211dd46281338d98b1bbbf246604297af6ea044414f89a5a2 at slot 50609624
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:34:06.45 UTC] Chain extended, new tip: 69faea313ce3f682d529679ae4f1340509ab42098867e644e938c0b05d9a6b62 at slot 50609630
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:35:05.48 UTC] Chain extended, new tip: 6ef795d1d7aca7806d0b5ef96cfbea196d06dc0a2322292f9634c82974a9940a at slot 50609689
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:36:11.09 UTC] Chain extended, new tip: fd60471e12a64d088fac7aebd656d3ffb4d628fc798c0f08db32a4574ba08fb1 at slot 50609755
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:36:16.43 UTC] Chain extended, new tip: 3078e6aaf7a09d3fb315063b0fa7b72b6f8d16fa8382e89576f3628f675fb69a at slot 50609760
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:36:57.23 UTC] Chain extended, new tip: 19a5ae3fa4282ce49a37c0b4d88e2fd65c64cfb59ae727196c7a4daeaa28a81a at slot 50609801
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:37:09.19 UTC] Chain extended, new tip: 57e9a980d832cf4fad39260b4cc0631a6246d2d361286248003b48e8304bd5d4 at slot 50609813
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:37:13.40 UTC] Chain extended, new tip: 9fc82c2412531f67f0c2f2dc679d955b396aaa7b3ffe6053866f428120d18259 at slot 50609817
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:37:36.42 UTC] Chain extended, new tip: 94cb07a705b99b50aa161d6decf1ed73d5e11754e6946795090f1e517b520f9c at slot 50609840
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:37:48.44 UTC] Chain extended, new tip: 85d07e1d1ffeac575a4217dafa442e52a81418c6f5b18d83878524eb1cbeaae5 at slot 50609852
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:39:06.43 UTC] Chain extended, new tip: cd63e3d784e1fdf79a524239694a1e05478e5f02ed4121d48acd9f85c8695fbe at slot 50609930
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:39:51.34 UTC] Chain extended, new tip: c189c7becfdebb1e452ff8c61bba089ba2fa34a13e24f11642be4b69ad110524 at slot 50609975
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:40:35.12 UTC] Chain extended, new tip: aa6c96b9bc2c4f9b65341660231fc4b3f2134917627608674bcdfae4e33cece2 at slot 50610019
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:40:45.35 UTC] Chain extended, new tip: de6bec79ff9f8f27080d5baf4132be3a5a87b9f37bb94aa6088f68b5a680214c at slot 50610029
+[31m[rch1:cardano.node.DnsSubscription:Error:89][0m [2022-02-16 02:41:30.49 UTC] Domain: "relays-new.cardano-testnet.iohkdev.io" Application Exception: 54.151.49.138:3001 SubscriberError {seType = SubscriberWorkerCancelled, seMessage = "SubscriptionWorker exiting", seStack = []}
+[31m[rch1:cardano.node.DnsSubscription:Error:1016][0m [2022-02-16 02:41:30.50 UTC] Domain: "relays-new.cardano-testnet.iohkdev.io" Application Exception: 3.128.220.55:3001 SubscriberError {seType = SubscriberWorkerCancelled, seMessage = "SubscriptionWorker exiting", seStack = []}
+[34m[rch1:cardano.node.DiffusionInitializationTracer:Info:5][0m [2022-02-16 02:41:30.50 UTC] DiffusionErrored user interrupt
+[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-02-16 02:41:30.50 UTC] Closed Immutable DB.
+[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-02-16 02:41:30.50 UTC] Closed db with immutable tip at 8c50e247ecf2e74b173c1d08533f19f015e08b79725c36bb57e6e7fa6ad0eb21 at slot 50541573 and tip de6bec79ff9f8f27080d5baf4132be3a5a87b9f37bb94aa6088f68b5a680214c at slot 50610029
