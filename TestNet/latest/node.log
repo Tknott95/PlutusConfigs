@@ -322,3 +322,7 @@ NodeToClientV_11	HardForkNodeToClientEnabled HardForkSpecificNodeToClientVersion
 [35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:21:30.36 UTC] Chain extended, new tip: 42a7458f1496d584a4a252da813dac43e19d7daaebbac7d9b7758bef60f71087 at slot 50608874
 [35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:22:01.34 UTC] Chain extended, new tip: 70aacb1839386e18a02aebab7c28e0a7d173d78464ba85bc422a277297b0414a at slot 50608905
 [34m[rch1:cardano.node.Mempool:Info:143][0m [2022-02-16 02:22:29.92 UTC] fromList [("tx",Object (fromList [("txid",String "f69aeaed")])),("kind",String "TraceMempoolAddedTx"),("mempoolSize",Object (fromList [("bytes",Number 369.0),("numTxs",Number 1.0)]))]
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:22:41.33 UTC] Chain extended, new tip: af7813b3a4f47006a04d1451aebc6857cc2b5208e05b73d0d8d34a7f5cacaaf1 at slot 50608945
+[34m[rch1:cardano.node.Mempool:Info:62][0m [2022-02-16 02:22:41.33 UTC] fromList [("kind",String "TraceMempoolRemoveTxs"),("txs",Array [Object (fromList [("txid",String "f69aeaed")])]),("mempoolSize",Object (fromList [("bytes",Number 0.0),("numTxs",Number 0.0)]))]
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:22:45.61 UTC] Chain extended, new tip: f52cab3f1202b499e9627097de44f417e15333f21394521167f4fc5c634a83df at slot 50608949
+[35m[rch1:cardano.node.ChainDB:Notice:54][0m [2022-02-16 02:22:59.48 UTC] Chain extended, new tip: ff45dd797db0b329b910b06d02fcf1485b2cd5528645ee6ec13113d36decb163 at slot 50608963
