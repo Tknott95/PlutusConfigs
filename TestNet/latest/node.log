@@ -1,25 +1,25 @@
 Node configuration: NodeConfiguration {ncNodeIPv4Addr = Just 127.0.0.1, ncNodeIPv6Addr = Nothing, ncNodePortNumber = Just 1337, ncConfigFile = "testnet-config.json", ncTopologyFile = "testnet-topology.json", ncDatabaseFile = "mainnet/db/", ncProtocolFiles = ProtocolFilepaths {byronCertFile = Nothing, byronKeyFile = Nothing, shelleyKESFile = Nothing, shelleyVRFFile = Nothing, shelleyCertFile = Nothing, shelleyBulkCredsFile = Nothing}, ncValidateDB = False, ncShutdownIPC = Nothing, ncShutdownOnSlotSynced = NoMaxSlotNo, ncProtocolConfig = NodeProtocolConfigurationCardano (NodeByronProtocolConfiguration {npcByronGenesisFile = "./testnet-byron-genesis.json", npcByronGenesisFileHash = Just "96fceff972c2c06bd3bb5243c39215333be6d56aaf4823073dca31afe5038471", npcByronReqNetworkMagic = RequiresMagic, npcByronPbftSignatureThresh = Nothing, npcByronApplicationName = ApplicationName {unApplicationName = "cardano-sl"}, npcByronApplicationVersion = 0, npcByronSupportedProtocolVersionMajor = 3, npcByronSupportedProtocolVersionMinor = 0, npcByronSupportedProtocolVersionAlt = 0}) (NodeShelleyProtocolConfiguration {npcShelleyGenesisFile = "./testnet-shelley-genesis.json", npcShelleyGenesisFileHash = Just "849a1764f152e1b09c89c0dfdbcbdd38d711d1fec2db5dfa0f87cf2737a0eaf4"}) (NodeAlonzoProtocolConfiguration {npcAlonzoGenesisFile = "./testnet-alonzo-genesis.json", npcAlonzoGenesisFileHash = Just "7e94a15f55d1e82d10f09203fa1d40f8eede58fd8066542cf6566008068ed874"}) (NodeHardForkProtocolConfiguration {npcTestEnableDevelopmentHardForkEras = False, npcTestShelleyHardForkAtEpoch = Nothing, npcTestShelleyHardForkAtVersion = Nothing, npcTestAllegraHardForkAtEpoch = Nothing, npcTestAllegraHardForkAtVersion = Nothing, npcTestMaryHardForkAtEpoch = Nothing, npcTestMaryHardForkAtVersion = Nothing, npcTestAlonzoHardForkAtEpoch = Nothing, npcTestAlonzoHardForkAtVersion = Nothing}), ncSocketPath = Just "../relay/db/node.socket", ncDiffusionMode = InitiatorAndResponderDiffusionMode, ncSnapshotInterval = DefaultSnapshotInterval, ncTestEnableDevelopmentNetworkProtocols = False, ncMaxConcurrencyBulkSync = Nothing, ncMaxConcurrencyDeadline = Nothing, ncLoggingSwitch = True, ncLogMetrics = True, ncTraceConfig = TracingOn (TraceSelection {traceVerbosity = NormalVerbosity, traceAcceptPolicy = OnOff {isOn = True}, traceBlockFetchClient = OnOff {isOn = False}, traceBlockFetchDecisions = OnOff {isOn = False}, traceBlockFetchProtocol = OnOff {isOn = False}, traceBlockFetchProtocolSerialised = OnOff {isOn = False}, traceBlockFetchServer = OnOff {isOn = False}, traceBlockchainTime = OnOff {isOn = False}, traceChainDB = OnOff {isOn = True}, traceChainSyncBlockServer = OnOff {isOn = False}, traceChainSyncClient = OnOff {isOn = False}, traceChainSyncHeaderServer = OnOff {isOn = False}, traceChainSyncProtocol = OnOff {isOn = False}, traceConnectionManager = OnOff {isOn = True}, traceConnectionManagerCounters = OnOff {isOn = True}, traceDebugPeerSelectionInitiatorTracer = OnOff {isOn = False}, traceDebugPeerSelectionInitiatorResponderTracer = OnOff {isOn = False}, traceDiffusionInitialization = OnOff {isOn = True}, traceDnsResolver = OnOff {isOn = False}, traceDnsSubscription = OnOff {isOn = True}, traceErrorPolicy = OnOff {isOn = True}, traceForge = OnOff {isOn = True}, traceForgeStateInfo = OnOff {isOn = True}, traceHandshake = OnOff {isOn = False}, traceInboundGovernor = OnOff {isOn = True}, traceInboundGovernorCounters = OnOff {isOn = True}, traceIpSubscription = OnOff {isOn = True}, traceKeepAliveClient = OnOff {isOn = False}, traceLedgerPeers = OnOff {isOn = True}, traceLocalChainSyncProtocol = OnOff {isOn = False}, traceLocalConnectionManager = OnOff {isOn = False}, traceLocalErrorPolicy = OnOff {isOn = True}, traceLocalHandshake = OnOff {isOn = False}, traceLocalInboundGovernor = OnOff {isOn = False}, traceLocalMux = OnOff {isOn = False}, traceLocalRootPeers = OnOff {isOn = True}, traceLocalServer = OnOff {isOn = False}, traceLocalStateQueryProtocol = OnOff {isOn = False}, traceLocalTxSubmissionProtocol = OnOff {isOn = False}, traceLocalTxSubmissionServer = OnOff {isOn = False}, traceMempool = OnOff {isOn = True}, traceMux = OnOff {isOn = False}, tracePeerSelection = OnOff {isOn = True}, tracePeerSelectionCounters = OnOff {isOn = True}, tracePeerSelectionActions = OnOff {isOn = True}, tracePublicRootPeers = OnOff {isOn = True}, traceServer = OnOff {isOn = True}, traceTxInbound = OnOff {isOn = False}, traceTxOutbound = OnOff {isOn = False}, traceTxSubmissionProtocol = OnOff {isOn = False}, traceTxSubmission2Protocol = OnOff {isOn = False}}), ncMaybeMempoolCapacityOverride = Nothing, ncProtocolIdleTimeout = 5s, ncTimeWaitTimeout = 60s, ncAcceptedConnectionsLimit = AcceptedConnectionsLimit {acceptedConnectionsHardLimit = 512, acceptedConnectionsSoftLimit = 384, acceptedConnectionsDelay = 5s}, ncTargetNumberOfRootPeers = 100, ncTargetNumberOfKnownPeers = 100, ncTargetNumberOfEstablishedPeers = 50, ncTargetNumberOfActivePeers = 20, ncEnableP2P = DisabledP2PMode}
-[35m[rch1:cardano.node.basicInfo.protocol:Notice:5][0m [2022-03-08 06:18:21.01 UTC] Byron; Shelley
-[35m[rch1:cardano.node.basicInfo.version:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 1.33.0
-[35m[rch1:cardano.node.basicInfo.commit:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 814df2c146f5d56f8c35a681fe75e85b905aed5d
-[35m[rch1:cardano.node.basicInfo.nodeStartTime:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 2022-03-08 06:18:21.014875928 UTC
-[35m[rch1:cardano.node.basicInfo.systemStartTime:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 2019-07-24 20:20:16 UTC
-[35m[rch1:cardano.node.basicInfo.slotLengthByron:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 20s
-[35m[rch1:cardano.node.basicInfo.epochLengthByron:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 21600
-[35m[rch1:cardano.node.basicInfo.slotLengthShelley:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 1s
-[35m[rch1:cardano.node.basicInfo.epochLengthShelley:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 432000
-[35m[rch1:cardano.node.basicInfo.slotsPerKESPeriodShelley:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 129600
-[35m[rch1:cardano.node.basicInfo.slotLengthAllegra:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 1s
-[35m[rch1:cardano.node.basicInfo.epochLengthAllegra:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 432000
-[35m[rch1:cardano.node.basicInfo.slotsPerKESPeriodAllegra:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 129600
-[35m[rch1:cardano.node.basicInfo.slotLengthMary:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 1s
-[35m[rch1:cardano.node.basicInfo.epochLengthMary:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 432000
-[35m[rch1:cardano.node.basicInfo.slotsPerKESPeriodMary:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 129600
-[35m[rch1:cardano.node.basicInfo.slotLengthAlonzo:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 1s
-[35m[rch1:cardano.node.basicInfo.epochLengthAlonzo:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 432000
-[35m[rch1:cardano.node.basicInfo.slotsPerKESPeriodAlonzo:Notice:5][0m [2022-03-08 06:18:21.01 UTC] 129600
-[34m[rch1:cardano.node.nodeconfig:Info:5][0m [2022-03-08 06:18:21.02 UTC] startup time: 1646720302
-[34m[rch1:cardano.node.nodeconfig:Info:5][0m [2022-03-08 06:18:21.02 UTC] 
+[35m[rch1:cardano.node.basicInfo.protocol:Notice:5][0m [2022-03-08 06:18:28.25 UTC] Byron; Shelley
+[35m[rch1:cardano.node.basicInfo.version:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 1.33.0
+[35m[rch1:cardano.node.basicInfo.commit:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 814df2c146f5d56f8c35a681fe75e85b905aed5d
+[35m[rch1:cardano.node.basicInfo.nodeStartTime:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 2022-03-08 06:18:28.256096719 UTC
+[35m[rch1:cardano.node.basicInfo.systemStartTime:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 2019-07-24 20:20:16 UTC
+[35m[rch1:cardano.node.basicInfo.slotLengthByron:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 20s
+[35m[rch1:cardano.node.basicInfo.epochLengthByron:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 21600
+[35m[rch1:cardano.node.basicInfo.slotLengthShelley:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 1s
+[35m[rch1:cardano.node.basicInfo.epochLengthShelley:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 432000
+[35m[rch1:cardano.node.basicInfo.slotsPerKESPeriodShelley:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 129600
+[35m[rch1:cardano.node.basicInfo.slotLengthAllegra:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 1s
+[35m[rch1:cardano.node.basicInfo.epochLengthAllegra:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 432000
+[35m[rch1:cardano.node.basicInfo.slotsPerKESPeriodAllegra:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 129600
+[35m[rch1:cardano.node.basicInfo.slotLengthMary:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 1s
+[35m[rch1:cardano.node.basicInfo.epochLengthMary:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 432000
+[35m[rch1:cardano.node.basicInfo.slotsPerKESPeriodMary:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 129600
+[35m[rch1:cardano.node.basicInfo.slotLengthAlonzo:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 1s
+[35m[rch1:cardano.node.basicInfo.epochLengthAlonzo:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 432000
+[35m[rch1:cardano.node.basicInfo.slotsPerKESPeriodAlonzo:Notice:5][0m [2022-03-08 06:18:28.25 UTC] 129600
+[34m[rch1:cardano.node.nodeconfig:Info:5][0m [2022-03-08 06:18:28.26 UTC] startup time: 1646720309
+[34m[rch1:cardano.node.nodeconfig:Info:5][0m [2022-03-08 06:18:28.26 UTC] 
 node addresses:          127.0.0.1:1337
 local socket:            ../relay/db/node.socket
 node-to-node versions:
@@ -37,13 +37,13 @@ NodeToClientV_8	HardForkNodeToClientEnabled HardForkSpecificNodeToClientVersion2
 NodeToClientV_9	HardForkNodeToClientEnabled HardForkSpecificNodeToClientVersion2 (EraNodeToClientEnabled ByronNodeToClientVersion1 :* EraNodeToClientEnabled ShelleyNodeToClientVersion4 :* EraNodeToClientEnabled ShelleyNodeToClientVersion4 :* EraNodeToClientEnabled ShelleyNodeToClientVersion4 :* EraNodeToClientEnabled ShelleyNodeToClientVersion4 :* Nil)
 NodeToClientV_10	HardForkNodeToClientEnabled HardForkSpecificNodeToClientVersion2 (EraNodeToClientEnabled ByronNodeToClientVersion1 :* EraNodeToClientEnabled ShelleyNodeToClientVersion4 :* EraNodeToClientEnabled ShelleyNodeToClientVersion4 :* EraNodeToClientEnabled ShelleyNodeToClientVersion4 :* EraNodeToClientEnabled ShelleyNodeToClientVersion4 :* Nil)
 NodeToClientV_11	HardForkNodeToClientEnabled HardForkSpecificNodeToClientVersion2 (EraNodeToClientEnabled ByronNodeToClientVersion1 :* EraNodeToClientEnabled ShelleyNodeToClientVersion5 :* EraNodeToClientEnabled ShelleyNodeToClientVersion5 :* EraNodeToClientEnabled ShelleyNodeToClientVersion5 :* EraNodeToClientEnabled ShelleyNodeToClientVersion5 :* Nil)
-[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:21.02 UTC] Started opening Chain DB
-[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:21.02 UTC] Started opening Immutable DB
-[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:21.14 UTC] Validating chunk no. 2400 out of 2400. Progress: 99.96%
-[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:21.22 UTC] Validated chunk no. 2400 out of 2400. Progress: 100.00%
-[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:21.22 UTC] Found a valid last location at chunk 2400 with tip 369aa49f9641198274f607f926bd08c53278be0b09109ad5879feccc27944d83@51850705.
-[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:21.22 UTC] Opened imm db with immutable tip at 369aa49f9641198274f607f926bd08c53278be0b09109ad5879feccc27944d83 at slot 51850705 and chunk 2400
-[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:21.22 UTC] Started opening Volatile DB
-[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:21.53 UTC] Opened vol db
-[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:21.53 UTC] Started opening Ledger DB
-[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:23.78 UTC] Closed Immutable DB.
+[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:28.26 UTC] Started opening Chain DB
+[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:28.26 UTC] Started opening Immutable DB
+[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:28.35 UTC] Validating chunk no. 2400 out of 2400. Progress: 99.96%
+[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:28.43 UTC] Validated chunk no. 2400 out of 2400. Progress: 100.00%
+[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:28.43 UTC] Found a valid last location at chunk 2400 with tip 369aa49f9641198274f607f926bd08c53278be0b09109ad5879feccc27944d83@51850705.
+[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:28.43 UTC] Opened imm db with immutable tip at 369aa49f9641198274f607f926bd08c53278be0b09109ad5879feccc27944d83 at slot 51850705 and chunk 2400
+[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:28.43 UTC] Started opening Volatile DB
+[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:28.74 UTC] Opened vol db
+[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:28.74 UTC] Started opening Ledger DB
+[34m[rch1:cardano.node.ChainDB:Info:5][0m [2022-03-08 06:18:29.35 UTC] Closed Immutable DB.
