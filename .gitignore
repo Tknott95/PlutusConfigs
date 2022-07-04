@@ -1,6 +1,6 @@
-TestNet/mainnet
+TestNet/*/mainnet
 
-TestNet/latest/mainnet
+TestNet/*/latest/mainnet
 
-TestNet/latest/testnet/
-TestNet/latest/testnet
+TestNet/*/latest/testnet/
+TestNet/*/latest/testnet
