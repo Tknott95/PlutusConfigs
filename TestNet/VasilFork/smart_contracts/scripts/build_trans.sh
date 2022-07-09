@@ -7,7 +7,7 @@ pay_addr_00=$input_piped_in
 utxo_consuming=4ca42623c58dd0efc52790ab20c200a67ed3f70f3e273b800884093a0ea83678#0
 
 x4Wallet137_addr=addr_test1qpdvvdalsqscc3899gk67zdx7lkrlqlnwm3xzzk88jc65c50a06ns46p0wjxe6xqkvnrs4f79wjp6tz07wrl2k2nctyqqkhtak
-paying_to_addr=$x4Wallet137_Addr
+paying_to_addr=$x4Wallet137_addr
 
 out_file_loc=../transactions/tx_00/tx.build
 
