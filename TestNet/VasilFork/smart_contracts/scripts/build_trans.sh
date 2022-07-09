@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo "\n\n MAKE SURE TO PIPE IN pay_addr_00\n"
+
 read $input_piped_in
 
 pay_addr_00=$input_piped_in
