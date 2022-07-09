@@ -28,5 +28,9 @@ cat ../keys/alwayssucceeds/alwayssucceeds_payment.addr | ./query_head.sh
  ../transactions/tx00/tx.signed
 ```
 
+``` Submit Trans
+  ./submit_trans.sh ../transactions/tx00/tx.signed
+```
+
 
 DEPRECATED: cat ../keys/alwayssucceeds/alwayssucceeds_payment.addr | ./build_trans.sh 
