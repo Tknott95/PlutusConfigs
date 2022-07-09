@@ -24,9 +24,9 @@ out_file_loc=../transactions/tx_00/tx.build
 
 
 
-echo "\e[0;1;30m  UTXO CONSUMED: $utxo_consuming \e[0m"
-echo "\e[0;1;30m  SENDING TO: $payingto_addr \e[0m"
-echo "\e[0;1;30m  BUILT TRANS TO: $out_file_loc \e[0m"
+echo -e "\e[0;1;30m  UTXO CONSUMED: $utxo_consuming \e[0m"
+echo -e "\e[0;0;33m  SENDING TO: $payingto_addr \e[0m"
+echo -e "\e[0;0;36m  BUILT TRANS TO: $out_file_loc \e[0m"
 
 
 cardano-cli transaction build \
