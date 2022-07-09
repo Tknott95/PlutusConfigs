@@ -18,7 +18,6 @@
 # (cat ../keys/alwayssucceeds/alwayssucceeds_payment.addr)
 pay_addr_00=$1
 
-echo "$2"
 utxo_consuming=$2
 
 x4Wallet137_addr=addr_test1qpdvvdalsqscc3899gk67zdx7lkrlqlnwm3xzzk88jc65c50a06ns46p0wjxe6xqkvnrs4f79wjp6tz07wrl2k2nctyqqkhtak
