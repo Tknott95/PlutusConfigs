@@ -7,6 +7,7 @@
 # cardano-cli transaction build --babbage-era $MAGIC --change-address $(cat ../keys/alwayssucceeds/alwayssucceeds_payment.addr) --tx-in 4ca42623c58dd0efc52790ab20c200a67ed3f70f3e273b800884093a0ea83678#0 --tx-out addr_test1qpdvvdalsqscc3899gk67zdx7lkrlqlnwm3xzzk88jc65c50a06ns46p0wjxe6xqkvnrs4f79wjp6tz07wrl2k2nctyqqkhtak+10000000 --out-file tx.build
 
 
+# args  <pay-addr> <utxo_consuming> <paying_to_addr> <out_file loc>
 
 # piping in causes a issues so I am using args here
 #read $input_piped_in
@@ -15,7 +16,9 @@ pay_addr_00=$1
 # addr_test1qrpxufgw8y6dgyl758s37fcea2gm0pvfyrwnths06utp9tr2fgmkqt63xvatw9uufc4q9sdfrwt4hzmp54v6s9jlv2aq0ptj4v
 # $input_piped_in
 # make utxo consuming dynamic with another script
-utxo_consuming=4ca42623c58dd0efc52790ab20c200a67ed3f70f3e273b800884093a0ea83678#0
+echo "$2"
+utxo_consuming=$2
+# 4ca42623c58dd0efc52790ab20c200a67ed3f70f3e273b800884093a0ea83678#0
 
 x4Wallet137_addr=addr_test1qpdvvdalsqscc3899gk67zdx7lkrlqlnwm3xzzk88jc65c50a06ns46p0wjxe6xqkvnrs4f79wjp6tz07wrl2k2nctyqqkhtak
 paying_to_addr=$x4Wallet137_addr
