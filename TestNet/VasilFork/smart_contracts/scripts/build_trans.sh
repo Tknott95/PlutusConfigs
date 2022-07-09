@@ -38,5 +38,5 @@ cardano-cli transaction build \
   $MAGIC \
   --change-address $pay_addr_00 \
   --tx-in $utxo_consuming \
-  --tx-out $paying_to_addr+10000000 \
+  --tx-out $paying_to_addr+5000000 \
   --out-file $out_file_loc
