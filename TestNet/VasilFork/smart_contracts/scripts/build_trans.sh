@@ -13,7 +13,7 @@ out_file_loc=../transactions/tx_00/tx.build
 
 cardano-cli transaction build \
   --babbage-era \
-  $MAAGIC \
+  $MAGIC \
   --change-address $pay_addr_00 \
   --tx-in $utxo_consuming \
   --tx-out $paying_to_addr+100000000 \
