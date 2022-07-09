@@ -19,4 +19,14 @@ cat ../keys/alwayssucceeds/alwayssucceeds_payment.addr | ./query_head.sh
 ```
 
 
+``` Sign Trans
+ ./sign_trans.sh ../transactions/tx00/tx.build  ../keys/alwayssucceeds/alwayssucceeds_payment.skey  ../transactions/tx00/tx.signed
+
+./sign_trans.sh \
+ ../transactions/tx00/tx.build \
+ ../keys/alwayssucceeds/alwayssucceeds_payment.skey \
+ ../transactions/tx00/tx.signed
+```
+
+
 DEPRECATED: cat ../keys/alwayssucceeds/alwayssucceeds_payment.addr | ./build_trans.sh 
