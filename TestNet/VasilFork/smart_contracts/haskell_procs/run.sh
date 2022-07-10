@@ -1,8 +1,10 @@
 #!/bin/sh
 
-ghc main.hs -o main ; rm -f *.o *.hi
+# IF USING CABAL
+cabal run haskell-procs
 
-echo
-
-./main
+# IF USING ONLY GHC
+# ghc app/main.hs -o main ; rm -f *.o *.hi
+# echo
+# ./main
 
