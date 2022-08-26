@@ -6,3 +6,6 @@ TestNet/*/latest/testnet/
 TestNet/*/latest/testnet
 
 TestNet/*/db/
+
+MainNet/*/db/
+
