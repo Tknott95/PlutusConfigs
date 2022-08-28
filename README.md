@@ -32,4 +32,5 @@ cat ../keys/alwayssucceeds/alwayssucceeds_payment.addr | ./query_head.sh
 ```
 
 
-DEPRECATED: cat ../keys/alwayssucceeds/alwayssucceeds_payment.addr | ./build_trans.sh 
+DEPRECATED: cat ../keys/alwayssucceeds/alwayssucceeds_payment.addr | ./build_trans.sh
+ 
