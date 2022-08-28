@@ -1,7 +1,6 @@
 # PlutusConfigs
 
 
-
 cat ../keys/alwayssucceeds/alwayssucceeds_payment.addr | ./query_head.sh
 
 
