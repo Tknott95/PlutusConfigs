@@ -8,4 +8,6 @@
   Can be used to filter if needed with a db - this could allow for fun things to happen
 '
 
-oura watch socket/node.socket --bearer unix --magic testnet
+oura watch socket/node.socket --bearer unix --magic testnet 
+
+# --config oura.config
