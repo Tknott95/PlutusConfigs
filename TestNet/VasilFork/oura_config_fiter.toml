@@ -3,6 +3,13 @@ type = "N2C"
 address = ["Unix", "/home/x4/Workspace/CardanoSpace/PlutusConfigs/TestNet/VasilFork/socket/node.socket"]
 magic = "testnet"
 
+[[filters]]
+type = "Selection"
+
+[filters.check]
+predicate = "policy_equals"
+argument = "0b1e203c7e13914e095bf462441205c1b377e978718fcb93fd445449"
+
 
 [sink]
 type = "Terminal"
