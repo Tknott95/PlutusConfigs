@@ -7,4 +7,3 @@ cardano-node run +RTS -M3G -RTS \
   --host-addr 0.0.0.0 \
   --port 1337  \
   --topology topology.json  #  > node.log 
-
