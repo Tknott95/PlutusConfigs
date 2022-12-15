@@ -7,5 +7,7 @@ TestNet/*/latest/testnet
 
 TestNet/*/db/
 
+TestNet/*/socket/node.socket
+
 MainNet/*/db/
 
