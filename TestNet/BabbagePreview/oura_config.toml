@@ -1,0 +1,12 @@
+[source]
+type = "N2C"
+address = ["Unix", "/home/x4/Workspace/CardanoSpace/PlutusConfigs/TestNet/VasilFork/socket/node.socket"]
+magic = "testnet"
+
+
+[sink]
+type = "Terminal"
+throttle_min_span_millis = 500
+wrap = true
+
+
